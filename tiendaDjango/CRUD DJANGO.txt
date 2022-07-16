@@ -1,0 +1,55 @@
+COMANDOS MAS USADOS EN DJANGO PARA EL CRUD
+
+maria db 
+
+user root
+password 1234
+port 3306
+
+python 
+pip
+pip list
+cd D:\cursos\curso_udemy_Django\tiendaDjango
+django-admin
+code .
+python manage.py runserver
+
+django-admin startapp core
+python manage.py runserver
+pip install mysqlclient
+
+https://www.digitalocean.com/community/tutorials/how-to-use-mysql-or-mariadb-with-your-django-application-on-ubuntu-14-04
+python manage.py makemigrations
+python manage.py migrate
+
+python manage.py createsuperuser
+username : admin
+password : 1234
+
+http://127.0.0.1:8000/admin/login/?next=/admin/
+
+
+sintaxis inicial para montar la imagen y listar productos
+<body>
+    <h1>Hola DJANGO¡</h1>
+    {% load static %}
+    <img src="{% static 'core/img/perro.gif' %}" alt="">
+
+    <h2>Hola {{nombre}}, tu heroe favorito es {{Heroes.1}}</h2>
+    <h3>Listado de Heroes</h3>
+    <ol>
+        {% for Heroes in Heroes %}
+        <li>{{Heroes}}</li>
+        {%endfor %}
+    </ol>
+    <H3>El {{vinilo.nombre}} tiene un valor de {{vinilo.valor}}</H3>
+</body>
+
+http://127.0.0.1:8000/form-producto
+
+programas usados 
+
+heidi para bases de datos 
+commander para usar los comandos
+visual studio code para programar
+advanced rest client
